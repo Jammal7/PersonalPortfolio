@@ -1,0 +1,20 @@
+{
+  "name": "personalportfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio Design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss/main.scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jammal7/PersonalPortfolio.git"
+  },
+  "author": "Jammal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jammal7/PersonalPortfolio/issues"
+  },
+  "homepage": "https://github.com/Jammal7/PersonalPortfolio#readme"
+}
