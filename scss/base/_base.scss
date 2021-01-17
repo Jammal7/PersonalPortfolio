@@ -1,0 +1,41 @@
+/*Font Awesome Free Icon*/
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik:499,700,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+html{
+    line-height: 1.5;
+    font-size: 10px;
+    font-family: 'Fraunces', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

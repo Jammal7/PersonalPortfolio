@@ -2,14 +2,15 @@
 
 @import "base/base";
 
-@import "components/anmation";
+@import "components/animation";
 @import "components/components";
 @import "components/mobile";
 
+@import "layout/header";
 @import "layout/sidebar";
 
-@import "page/about";
-@import "page/contact";
-@import "page/home";
-@import "page/portfolio";
-@import "page/services";
+@import "pages/about";
+@import "pages/contact";
+@import "pages/home";
+@import "pages/portfolio";
+@import "pages/services";

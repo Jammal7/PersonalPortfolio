@@ -1,0 +1,58 @@
+.aside{
+    width: 270px;
+    background-color: var(--primary-dark);
+    position: fixed;
+    height: 100%;
+    left: 0;
+    right: 0;
+    z-index: 11;
+    border-right: 1px solid var(--primary-dark);
+    transition: all 0.3s ease;
+
+    &-inner{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+    }
+    .logo{
+        padding: 30px 0;
+
+        a{
+            font-size: 40px;
+            color: #ffffff;
+            font-family: 'Rubik', sans-serif;
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-block;
+            position: relative;
+            padding: 0 10px;
+            line-height: 50px;
+
+            &::before{
+                content: '';
+                height: 20px;
+                width: 20px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                
+            }
+            &::after{
+                content: '';
+                height: 20px;
+                width: 20px;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                
+            }
+
+            span{
+                color: var(--secondary-text);
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+@media only screen and (min-width: 789px){
+    .cta{
+        font-size: 2.5rem !important;
+        padding: 20px 60px !important;
+    }
+    #body{
+        h1{
+            font-size: 5rem !important;
+        }
+    }
+}
+@media only screen and (min-width: 1061px){
+    #body{
+        h1{
+            font-size: 7rem !important;
+        }
+    }
+}

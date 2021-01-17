@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Jammal7/PersonalPortfolio/issues"
   },
-  "homepage": "https://github.com/Jammal7/PersonalPortfolio#readme"
+  "homepage": "https://github.com/Jammal7/PersonalPortfolio#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
